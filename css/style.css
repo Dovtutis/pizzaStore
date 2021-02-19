@@ -1,0 +1,437 @@
+/*COLORS*/
+
+.colorWhite {
+	color: #FFFFFF;
+}
+
+.colorLightBlack {
+	color: #474B50;
+}
+
+.colorGray {
+	color: #9B9B9C;
+}
+
+.colorRed {
+	color: #F04E53;
+}
+
+.colorYellow {
+	color: #FCCC4C;
+}
+
+
+/*BACKGROUND COLORS*/
+
+.bg_color_light_black {
+	background-color: #1D2228;
+}
+
+.bg_color_pink {
+	background-color: #ED4E53;
+}
+
+.bg_color_yellow {
+	background-color: #FCCC4C;
+}
+
+/*FONT STYLES*/
+
+.fontAll {
+font-family: 'Open Sans', sans-serif;
+}
+
+.fontOswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.fontWeight800 {
+	font-weight:800;
+}
+
+.lineheight30p {
+	line-height: 30px;
+}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+/*FONT SIZES*/
+
+.fontSize12p {
+	font-size: 12px;
+}
+
+.fontSize14p {
+	font-size: 14px;
+}
+
+.fontSize15p {
+	font-size: 15px;
+}
+
+.fontSize16p {
+	font-size: 16px;
+}
+
+.fontSize18p {
+	font-size: 18px;
+}
+
+.fontSize20p {
+	font-size: 20px;
+}
+
+.fontSize24p {
+	font-size: 24px;
+}
+
+.fontSize26p {
+	font-size: 26px;
+}
+
+.fontSize30p {
+	font-size: 30px;
+}
+
+.fontSize40p {
+	font-size: 40px;
+}
+
+.fontSize42p {
+	font-size: 42px;
+}
+
+.fontSize44p {
+	font-size: 44px;
+}
+
+.fontSize62p {
+	font-size: 62px;
+}
+
+/*PADDINGS*/
+
+.padding20_0 {
+	padding: 20px 0;
+}
+
+
+.padding0_20 {
+	padding: 0px 20px;
+}
+
+/*MARGINS*/
+
+.marginBottom115p {
+	margin-bottom: 115px;
+}
+
+.marginBottom10p {
+	margin-bottom: 10px;
+}
+
+/*BORDERS*/
+
+.borderRadius10p {
+	border-radius: 10px;
+}
+
+.border1pSolid {
+	border: 1px solid #BEBCBC;
+}
+
+.borderBottom1pSolid {
+	border-bottom: 1px solid #BEBCBC;
+}
+
+
+
+/*WEBPAGE CLASSES*/
+
+.orderOnlineButton {
+	width: 98px;
+	height: 58px;
+	transition: .5s;
+}
+
+.orderOnlineButton:hover {
+	background-color: #EC3E43;
+	cursor: pointer;
+}
+
+.hoverOnNumber {
+	transition: .5s;
+}
+
+.hoverOnNumber:hover {
+	color: #E0161C;
+	cursor: pointer;
+}
+
+.slidesBox:hover {
+	cursor: pointer;
+}
+
+.width150p {
+	width: 150px;
+}
+
+.headerContainerBg {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/veg/11.png");
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 500px;
+	left: -200px;
+	top: 150px;
+}
+
+.smallImageBox {
+	width: 150px;
+	height: 150px;
+	margin: 10px 0;
+}
+
+.smallImageBox img {
+	width: 150px;
+	height: 150px;
+	transition: 1s;
+	transform: 1s;
+}
+
+.pizzaSmallCard:hover {
+	transition: 1s;
+}
+
+.pizzaSmallCard:hover .smallImageBox {
+	transition: 1s;
+	transform: rotate(30deg);
+}
+
+.lineThrough {
+	 text-decoration: line-through;
+}
+
+.mainLeftBox {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/auth.jpg");
+	height: 658px;
+}
+
+.mainLeftBox2 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/categories-lg/4.jpg");
+}
+
+.borderDotted {
+	border-bottom: dotted 2px #000000;
+}
+
+.mainRightBox2 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/categories-lg/5.jpg");
+}
+
+.pizzaCircle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	color: #FC1616;
+	position: absolute;
+	left: -30px;
+	top: -30px;
+}
+
+.pizzaCircle2 {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	color: #FC1616;
+	position: absolute;
+	left: 474px;
+	top: -30px;
+}
+
+.iconCircle {
+	width: 30px;
+	height: 30px;
+	transition: .3s;
+}
+
+.iconCircle:hover {
+	color: #FF1919;
+	cursor: pointer;
+	border-color:  #FF1919;
+}
+
+.translateEff:hover img {
+	transform: translateY(-10px);
+	transition: .3s;
+	}
+
+.translateEff img:hover {
+	cursor: pointer;
+}
+
+.height500p {
+	height: 500px;
+}
+
+.height120p {
+	height: 120px;
+}
+
+.paralaxBg {
+  background: url("http://androthemes.com/themes/html/slices/assets/img/bg/cta.jpg");
+  background-attachment: fixed;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.darkOverlay {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.clientImageBox {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+}
+
+.bottomImg1 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/1.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.bottomImg2 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/2.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.bottomImg3 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/3.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.bottomImg4 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/4.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.bottomImg5 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/5.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.bottomImg6 {
+	background: url("http://androthemes.com/themes/html/slices/assets/img/ig/6.jpg");
+	height: 180px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.backgroundCircleOppacity1 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#a {
+	display: block;
+}
+
+#b {
+	display: none;
+}
+
+#a:hover + #b {
+  display:block;
+}
+
+
+/*.bottomImg1:hover .backgroundCircleOppacity {
+	display: block;
+}
+*/
+.backgroundCircleOppacity2 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.bottomImg2:hover .backgroundCircleOppacity2 {
+	display: block;
+}
+
+.backgroundCircleOppacity3 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.bottomImg3:hover .backgroundCircleOppacity3 {
+	display: block;
+}
+
+.backgroundCircleOppacity4 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.bottomImg4:hover .backgroundCircleOppacity4 {
+	display: block;
+}
+
+.backgroundCircleOppacity5 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.bottomImg5:hover .backgroundCircleOppacity5 {
+	display: block;
+}
+
+.backgroundCircleOppacity6 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.bottomImg6:hover .backgroundCircleOppacity6 {
+	display: block;
+}
